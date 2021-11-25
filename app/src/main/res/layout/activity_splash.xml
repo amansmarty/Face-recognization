@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/scanning" />
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipe_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        app:button_background="@drawable/custom_button"
+        app:button_bottom_padding="20dp"
+        app:button_image_disabled="@drawable/ic_baseline_adjust_24"
+        app:button_image_enabled="@drawable/ic_baseline_check_24"
+        app:button_left_padding="20dp"
+        app:button_right_padding="20dp"
+        app:button_top_padding="20dp"
+        app:inner_text="Swipe Left "
+
+        app:inner_text_background="@drawable/shape_background"
+        app:inner_text_bottom_padding="16dp"
+        app:inner_text_color="#000"
+        app:inner_text_size="18sp"
+        app:inner_text_top_padding="16dp" />
+
+</RelativeLayout>

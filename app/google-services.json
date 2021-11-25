@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655508918776",
+    "project_id": "detector-c4693",
+    "storage_bucket": "detector-c4693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655508918776:android:3715d1a315ea456264c60d",
+        "android_client_info": {
+          "package_name": "com.example.detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655508918776-9pv9j6172fjjaf8ocft47fofk5bd6tc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA_OQ7PsWrm6HAvw43uRxXmB5qLTNslKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655508918776-9pv9j6172fjjaf8ocft47fofk5bd6tc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
